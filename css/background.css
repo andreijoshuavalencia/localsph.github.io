@@ -1,0 +1,53 @@
+body {
+    background-color: #fffcf2;
+    margin: 0;
+    position: absolute;
+}
+header h1{
+    font: 45px "Trebuchet MS", sans-serif;
+    text-align: center;
+    border: 10px solid #EB5E28;
+}
+
+.topNav{
+    background-color: #CCC5B9;
+    padding: 10px 10px 20px 10px;
+}
+
+.topNav a {
+    padding: 1px 100px 10px 10px;
+    position: relative;
+    font: 25px "Trebuchet MS", sans-serif;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+.topNav a:hover{
+    color: #EB5E28;
+    border: 2px solid #EB5E28;
+}
+.frame1, .frame2, img{
+    background-color: #252422;
+    height: 500px;
+    width: 500px;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+
+}
+.frame2{
+    float: right;
+}
+
+img{
+    max-width: 450px;
+    max-height: 450px;
+    padding: 13px 2px 10px 17px;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #EB5E28;
+}
+
